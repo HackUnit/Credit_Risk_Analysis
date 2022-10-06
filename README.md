@@ -9,9 +9,10 @@ Links to images are working, and code is formatted and displayed correctly
 
 ## Overview of the analysis:
 
-Explain the purpose of this analysis.
-Overview of the loan prediction risk analysis:
-The purpose of this analysis is well defined
+For this analysis the goal was to solve a real-world challenge of credit card risk. A credit card dataset from LendingClub (a lending services company) was used and different techniques employed to train and evaluate models utilizing the unbalanced classes pulled from the dataset. Specifically, the Imbalanced-learn and Scikit-learn libraries were used to build and evaluate these models through resampling.
+
+In the actual analysis a variety of model techniques were used. This started with oversampling the data using the RandomOverSampler and SMOTE algorithms. To further evaluate models to get the best one to predict credit risk the ClusterCentroids algorithm was used to then undersample the data. Next, over and undersampling were combined using the SMOTEENN algorithm as a credit risk prediction model. Finally, two models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, were used to predict credit risk. The performance of each of these models was evaluated and a recommendation written on whether any of the models could be used to predict credit risk.
+
 <br>
 <br>
 
