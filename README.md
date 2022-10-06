@@ -33,6 +33,7 @@ There is a bulleted list that describes the balanced accuracy score and the prec
 <br>
 <sub>Naive Random Oversampling Classification Report</sub>
 <br>
+<br>
 
 - SMOTE Algorithm
 
@@ -43,6 +44,7 @@ There is a bulleted list that describes the balanced accuracy score and the prec
 ![SMOTE Classification Report](Resources/images/SCR.png)
 <br>
 <sub>SMOTE Classification Report</sub>
+<br>
 <br>
 
 ### Undersampling
@@ -57,6 +59,7 @@ There is a bulleted list that describes the balanced accuracy score and the prec
 <br>
 <sub>Cluster Centroids Classification Report</sub>
 <br>
+<br>
 
 ### Combination (Over and Under) Sampling
 
@@ -70,6 +73,7 @@ There is a bulleted list that describes the balanced accuracy score and the prec
 <br>
 <sub>SMOTEENN Classification Report</sub>
 <br>
+<br>
 
 ### Ensemble Learners
 
@@ -82,6 +86,7 @@ There is a bulleted list that describes the balanced accuracy score and the prec
 ![Balanced Random Forest Classifier Classification Report](Resources/images/BRFCCR.png)
 <br>
 <sub>Balanced Random Forest Classifier Classification Report</sub>
+<br>
 <br>
 
 - Easy Ensemble AdaBoost Classifier
