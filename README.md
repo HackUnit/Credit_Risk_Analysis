@@ -13,9 +13,11 @@ In the actual analysis a variety of model techniques were used. This started wit
 
 To begin the analysis, the balanced accuracy scores, precision and recall scores of each machine learning model will be presented with a brief summarization of each score. While both class scores of low and high risks are printed in the screenshots, the written focus will be on the ability of the models to predict high credit risk. Following will then be a written analysis that will use this collected information to make a summarized deduction on the accuracy of these models and which (if any) model would be best used by creditors to predict high credit risk.
 
+
+
 ### Oversampling
 
-- Naive Random Oversampling:
+- **Naive Random Oversampling:**
 This model gave a balanced accuracy score of ~64% and the high-risk class reported a 1% precision and 63% recall score.
 
 ![Naive Random Oversampling Accuracy Score](Resources/images/NROAS.png)
@@ -28,7 +30,7 @@ This model gave a balanced accuracy score of ~64% and the high-risk class report
 <br>
 <br>
 
-- SMOTE Algorithm:
+- **SMOTE Algorithm:**
 This model also gave a balanced accuracy score of ~64% and similarly the high-risk class reported a 1% precision and 63% recall score.
 
 ![SMOTE Accuracy Score](Resources/images/SAS.png)
@@ -41,9 +43,10 @@ This model also gave a balanced accuracy score of ~64% and similarly the high-ri
 <br>
 <br>
 
+
 ### Undersampling
 
-- Cluster Centroids:
+- **Cluster Centroids:**
 This under sampling technique gave a balanced accuracy score of ~64% and the high-risk class reported a 1% precision and 61% recall score.
 
 ![Cluster Centroids Accuracy Score](Resources/images/CCAS.png)
@@ -56,9 +59,10 @@ This under sampling technique gave a balanced accuracy score of ~64% and the hig
 <br>
 <br>
 
+
 ### Combination (Over and Under) Sampling
 
-- SMOTEENN Algorithm:
+- **SMOTEENN Algorithm:**
 In combining over and under sampling this technique gives us a balanced accuracy score of ~53% and the high-risk class reported a 1% precision, and a 71% recall score.
 
 ![SMOTEENN Accuracy Score](Resources/images/SMAS.png)
@@ -71,9 +75,10 @@ In combining over and under sampling this technique gives us a balanced accuracy
 <br>
 <br>
 
+
 ### Ensemble Learners
 
-- Balanced Random Forest Classifier:
+- **Balanced Random Forest Classifier:**
 Switching to ensemble learning models we see an increase in scores across the board. For the Balanced Random Forest Classifier, the balanced accuracy score came out to ~80% and the high-risk class reporting a 4% precision and 71% recall score.
 
 ![Balanced Random Forest Classifier Accuracy Score](Resources/images/BRFCAS.png)
@@ -86,7 +91,8 @@ Switching to ensemble learning models we see an increase in scores across the bo
 <br>
 <br>
 
-- Easy Ensemble AdaBoost Classifier:
+
+- **Easy Ensemble AdaBoost Classifier:**
 This final model gave a balanced accuracy score of ~92% and the high-risk class reported a 7% precision and 91% recall score.
 
 ![Easy Ensemble AdaBoost Classifier Accuracy Score](Resources/images/EEACAS.png)
@@ -98,6 +104,7 @@ This final model gave a balanced accuracy score of ~92% and the high-risk class 
 <sub>Easy Ensemble AdaBoost Classifier Classification Report</sub>
 <br>
 <br>
+
 
 ## Summary:
 
