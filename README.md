@@ -8,7 +8,6 @@ For this analysis the goal was to solve a real-world challenge of credit card ri
 In the actual analysis a variety of model techniques were used. This started with oversampling the data using the RandomOverSampler and SMOTE algorithms. To further evaluate models to get the best one to predict credit risk the ClusterCentroids algorithm was used to then under sample the data. Next, over and under sampling were combined using the SMOTEENN algorithm as a credit risk prediction model. Finally, two models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, were used to predict credit risk. The performance of each of these models was evaluated and a recommendation written on whether any of the models could be used to predict credit risk.
 
 <br>
-<br>
 
 ## Results:
 
