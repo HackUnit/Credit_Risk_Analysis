@@ -1,7 +1,7 @@
 # Local files/extension to ignore
 *.zip
 *.csv
-*.ipynb
+=0.23.0
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
