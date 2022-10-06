@@ -12,7 +12,6 @@ Links to images are working, and code is formatted and displayed correctly
 Explain the purpose of this analysis.
 Overview of the loan prediction risk analysis:
 The purpose of this analysis is well defined
-
 <br>
 <br>
 
@@ -26,21 +25,22 @@ There is a bulleted list that describes the balanced accuracy score and the prec
 
 - Naive Random Oversampling
 
-![Naive Random Oversampling Accuracy Score](Resources/images/.png)
+![Naive Random Oversampling Accuracy Score](Resources/images/NROAS.png)
 <br>
 <sub>Naive Random Oversampling Accuracy Score</sub>
 
-![Naive Random Oversampling Classification Report](Resources/images/.png)
+![Naive Random Oversampling Classification Report](Resources/images/NROCR.png)
 <br>
 <sub>Naive Random Oversampling Classification Report</sub>
+<br>
 
 - SMOTE Algorithm
 
-![SMOTE Balanced Accuracy Score](Resources/images/.png)
+![SMOTE Accuracy Score](Resources/images/SAS.png)
 <br>
 <sub>SMOTE Accuracy Score</sub>
 
-![SMOTE Imbalanced Classification Report](Resources/images/.png)
+![SMOTE Classification Report](Resources/images/SCR.png)
 <br>
 <sub>SMOTE Classification Report</sub>
 <br>
@@ -49,11 +49,11 @@ There is a bulleted list that describes the balanced accuracy score and the prec
 
 - Cluster Centroids
 
-![Cluster Centroids Accuracy Score](Resources/images/.png)
+![Cluster Centroids Accuracy Score](Resources/images/CCAS.png)
 <br>
 <sub>Cluster Centroids Accuracy Score</sub>
 
-![Cluster Centroids Classification Report](Resources/images/.png)
+![Cluster Centroids Classification Report](Resources/images/CCCR.png)
 <br>
 <sub>Cluster Centroids Classification Report</sub>
 <br>
@@ -62,11 +62,11 @@ There is a bulleted list that describes the balanced accuracy score and the prec
 
 - SMOTEENN Algorithm
 
-![SMOTEENN Accuracy Score](Resources/images/.png)
+![SMOTEENN Accuracy Score](Resources/images/SMAS.png)
 <br>
 <sub>SMOTEENN Accuracy Score</sub>
 
-![SMOTEENN Classification Report](Resources/images/.png)
+![SMOTEENN Classification Report](Resources/images/SMCR.png)
 <br>
 <sub>SMOTEENN Classification Report</sub>
 <br>
@@ -75,22 +75,22 @@ There is a bulleted list that describes the balanced accuracy score and the prec
 
 - Balanced Random Forest Classifier
 
-![Balanced Random Forest Classifier Accuracy Score](Resources/images/.png)
+![Balanced Random Forest Classifier Accuracy Score](Resources/images/BRFCAS.png)
 <br>
 <sub>Balanced Random Forest Classifier Accuracy Score</sub>
 
-![Balanced Random Forest Classifier Classification Report](Resources/images/.png)
+![Balanced Random Forest Classifier Classification Report](Resources/images/BRFCCR.png)
 <br>
 <sub>Balanced Random Forest Classifier Classification Report</sub>
 <br>
 
 - Easy Ensemble AdaBoost Classifier
 
-![Easy Ensemble AdaBoost Classifier Accuracy Score](Resources/images/.png)
+![Easy Ensemble AdaBoost Classifier Accuracy Score](Resources/images/EEACAS.png)
 <br>
 <sub>Easy Ensemble AdaBoost Classifier Accuracy Score</sub>
 
-![Easy Ensemble AdaBoost Classifier Classification Report](Resources/images/.png)
+![Easy Ensemble AdaBoost Classifier Classification Report](Resources/images/EEACCR.png)
 <br>
 <sub>Easy Ensemble AdaBoost Classifier Classification Report</sub>
 <br>
